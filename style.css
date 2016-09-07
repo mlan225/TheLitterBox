@@ -1,0 +1,23 @@
+body{
+	font-family: 'Baloo Tamma'; 
+	background: url();
+	background-position: center; 
+	background-size: cover;
+}
+
+.title{
+	text-align: center;
+	padding-top: 20%;
+}
+
+hr{
+	width: 40%;
+}
+
+h1{
+	font-size: 5em;
+}
+
+.navbar-nav button{
+	margin-top: 6%;
+}
