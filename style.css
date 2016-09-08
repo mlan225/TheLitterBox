@@ -2,9 +2,16 @@ html{
 	height: 100%; 
 }
 
-body{
+.homePage{
 	font-family: 'Baloo Tamma'; 
 	background: url(https://hd.unsplash.com/photo-1444005233317-7fb24f0da789);
+	background-position: center; 
+	background-size: cover;
+}
+
+.aboutPage{
+	font-family: 'Baloo Tamma'; 
+	/*background:*/ 
 	background-position: center; 
 	background-size: cover;
 }
@@ -45,7 +52,7 @@ h6{
 	border-radius: 5px;
 }
 
-#footer {
+#footerHome {
    position: absolute;
    bottom:0;
    width: 100%; 
@@ -53,11 +60,54 @@ h6{
    background: rgba(255,255,255,0.5);
 }
 
-#footer p{
+#footerHome p{
+	text-align: center;
+	padding-top: 0.8%;
+}
+
+#footerAbout {
+	margin-top: 2%;
+	position: relative;
+	bottom:0;
+	width: 100%; 
+	height:6%;   /* Height of the footer */
+	background: rgba(255,255,255,0.5);
+}
+
+#footerAbout p{
 	text-align: center;
 	padding-top: 0.8%;
 }
 
 button a{
 	color: #FFFFFF;
+}
+
+.aboutPage .jumbotron{
+	text-align: center; 
+}
+
+.aboutPage .col-lg-4{
+	padding-bottom: 20px;
+}
+
+.aboutPage .col-lg-8{
+	padding-top: 10%;
+}
+
+.aboutPage .container h1{
+	text-align: center;
+}
+
+.aboutPage img{
+	height: 45%;
+	float: left;
+}
+
+.aboutPage .people{
+	margin-top: 15%;
+}
+
+.aboutPage .people h3{
+	text-align: center;
 }
