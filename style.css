@@ -111,3 +111,49 @@ button a{
 .aboutPage .people h3{
 	text-align: center;
 }
+
+#browsJumbotron {
+	background: url(http://www.adventurecats.org/wp-content/uploads/2015/12/millie-climbing-cat-1500x1000.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-top: 10%;
+}
+
+#browsJumbotron h1{
+	padding-right: 40%;
+}
+
+
+#browsImages .col-lg-4 {
+	text-align: center;
+}
+
+#browsImages .col-lg-4 img{
+	width: 100%;
+	height: 55%;
+}
+
+#browsImages .col-lg-4 img:hover{
+	width: 100%;
+	height: 55%;
+	background: rgb(0,0,0);
+}
+
+#contactJumbotron{
+	background: url(https://hd.unsplash.com/photo-1415369629372-26f2fe60c467);
+	background-size: cover;
+	background-position: center;
+	padding-top: 10%;
+	color: #FFFFFF;
+}
+
+#aboutJumbotron{
+	background: url(http://deskbg.com/i/c/1920x1200/wpp/17/17561/group-little-cats-desktop-background.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-top: 10%;
+	color: #FFF;
+}
+
+
+
