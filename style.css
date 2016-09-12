@@ -49,7 +49,7 @@ h6{
 	background-color: rgba(105,105,105,0.8);
 	border:1px solid #afcde3;
 	-webkit-border-radius: 5px;
-	border-radius: 5px;
+	border-radius: 5px; 
 }
 
 #footerHome {
@@ -87,30 +87,26 @@ button a{
 	text-align: center; 
 }
 
-.aboutPage .col-lg-4{
-	padding-bottom: 20px;
+#goalsAndDoes{
+	padding-top:10%;
 }
 
 .aboutPage .col-lg-8{
-	padding-top: 10%;
+	padding-top: 3%;
 }
 
-.aboutPage .container h1{
-	text-align: center;
-}
 
 .aboutPage img{
 	height: 45%;
+	width: 100%;
 	float: left;
 }
 
-.aboutPage .people{
-	margin-top: 15%;
+.people{
+	margin-top: 10%;
 }
 
-.aboutPage .people h3{
-	text-align: center;
-}
+
 
 #browsJumbotron {
 	background: url(http://www.adventurecats.org/wp-content/uploads/2015/12/millie-climbing-cat-1500x1000.jpg);
@@ -147,13 +143,60 @@ button a{
 	color: #FFFFFF;
 }
 
+#email{
+	text-align: center;
+	padding-top:5%;
+}
+
 #aboutJumbotron{
 	background: url(http://deskbg.com/i/c/1920x1200/wpp/17/17561/group-little-cats-desktop-background.jpg);
 	background-position: center;
 	background-size: cover;
 	padding-top: 10%;
-	color: #FFF;
+	color: #FFFFFF;
+}
+
+
+.aboutPage .ictList{
+	padding-top: 3%;
 }
 
 
 
+#text{
+	width: 100%;
+	height: 5%;
+}
+
+#submit{
+	position: relative;
+	margin-left: 45%;
+}
+
+.conversationLog{
+    max-height: 35%;
+    overflow-y: scroll;
+}
+
+.ictContent h1{
+	text-align: center;
+}
+
+#ictContentBox{
+	background-color: #C8C8C8;
+	margin-top: 5%;
+}
+
+.conversationLog hr{
+	width: 100%;
+	height: 10%;
+}
+
+#fourOhFour {
+	text-align: center;
+	padding-top: 15%;
+	background: url(http://img.wallpaperfolder.com/f/45C41A3EA6F9/3968x2976px-613218-bimini-1719-08-kb-15-02-2015-buttafly-900x900px.jpg);
+	background-size: cover; 
+	background-position: center;
+	color: #FFFFFF;
+}
