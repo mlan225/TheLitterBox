@@ -1,202 +1,234 @@
-html{
-	height: 100%; 
+html {
+    height: 100%;
 }
 
-.homePage{
-	font-family: 'Baloo Tamma'; 
-	background: url(https://hd.unsplash.com/photo-1444005233317-7fb24f0da789);
-	background-position: center; 
-	background-size: cover;
+.homePage {
+    font-family: 'Baloo Tamma';
+    background: url(https://hd.unsplash.com/photo-1444005233317-7fb24f0da789);
+    background-position: center;
+    background-size: cover;
 }
 
-.aboutPage{
-	font-family: 'Baloo Tamma'; 
-	/*background:*/ 
-	background-position: center; 
-	background-size: cover;
+#whiteText{
+	text-decoration: underline;
+	color: white;
 }
 
-.title{
-	text-align: center;
-	padding-top: 20%;
-	color: #FFFFFF; 
+.aboutPage {
+    font-family: 'Baloo Tamma';
+    /*background:*/
+    background-position: center;
+    background-size: cover;
 }
 
-.title p{
-	font-size: 20px; 
+.title {
+    text-align: center;
+    padding-top: 20%;
+    color: #FFFFFF;
 }
 
-hr{
-	width: 40%;
+.title p {
+    font-size: 20px;
 }
 
-h1{
-	font-size: 5em; 
+hr {
+    width: 40%;
 }
 
-h6{
-	font-size: 15px;
+h1 {
+    font-size: 5em;
 }
 
-.navbar-nav button{
-	margin-top: 6%;
+h6 {
+    font-size: 15px;
 }
 
-.textBox{
-	margin:0 0 25px;
-	overflow:hidden;
-	padding:20px;
-	background-color: rgba(105,105,105,0.8);
-	border:1px solid #afcde3;
-	-webkit-border-radius: 5px;
-	border-radius: 5px; 
+.navbar-nav button {
+    margin-top: 6%;
+}
+
+.textBox {
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+    background-color: rgba(105, 105, 105, 0.8);
+    border: 1px solid #afcde3;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
 }
 
 #footerHome {
-   position: absolute;
-   bottom:0;
-   width: 100%; 
-   height:6%;   /* Height of the footer */
-   background: rgba(255,255,255,0.5);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    background: rgba(255, 255, 255, 0.5);
 }
 
-#footerHome p{
-	text-align: center;
-	padding-top: 0.8%;
+#footerHome p {
+    text-align: center;
+    padding-top: 0.8%;
 }
 
 #footerAbout {
-	margin-top: 2%;
-	position: relative;
-	bottom:0;
-	width: 100%; 
-	height:6%;   /* Height of the footer */
-	background: rgba(255,255,255,0.5);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
 }
 
-#footerAbout p{
-	text-align: center;
-	padding-top: 0.8%;
+#footerAbout p {
+    text-align: center;
+    padding-top: 0.8%;
 }
 
-button a{
-	color: #FFFFFF;
+button a {
+    color: #FFFFFF;
 }
 
-.aboutPage .jumbotron{
-	text-align: center; 
+.aboutPage .jumbotron {
+    text-align: center;
 }
 
-#goalsAndDoes{
-	padding-top:10%;
+#goalsAndDoes {
+    padding-top: 10%;
 }
 
-.aboutPage .col-lg-8{
-	padding-top: 3%;
+.aboutPage .col-lg-8 {
+    padding-top: 3%;
 }
 
-
-.aboutPage img{
-	height: 45%;
-	width: 100%;
-	float: left;
+.aboutPage img {
+    height: 45%;
+    width: 100%;
+    float: left;
 }
 
-.people{
-	margin-top: 10%;
+.people {
+    margin-top: 10%;
 }
-
-
 
 #browsJumbotron {
-	background: url(http://www.adventurecats.org/wp-content/uploads/2015/12/millie-climbing-cat-1500x1000.jpg);
-	background-position: center;
-	background-size: cover;
-	padding-top: 10%;
+    background: url(http://www.adventurecats.org/wp-content/uploads/2015/12/millie-climbing-cat-1500x1000.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 10%;
 }
 
-#browsJumbotron h1{
-	padding-right: 40%;
+#browsJumbotron h1 {
+    padding-right: 40%;
 }
-
 
 #browsImages .col-lg-4 {
-	text-align: center;
+    text-align: center;
 }
 
-#browsImages .col-lg-4 img{
-	width: 100%;
-	height: 55%;
+#browsImages .col-lg-4 img {
+    width: 100%;
+    height: 55%;
 }
 
-#browsImages .col-lg-4 img:hover{
-	width: 100%;
-	height: 55%;
-	background: rgb(0,0,0);
+#browsImages .col-lg-4 img:hover {
+    width: 100%;
+    height: 55%;
+    background: rgb(0, 0, 0);
 }
 
-#contactJumbotron{
-	background: url(https://hd.unsplash.com/photo-1415369629372-26f2fe60c467);
-	background-size: cover;
-	background-position: center;
-	padding-top: 10%;
-	color: #FFFFFF;
+#contactJumbotron {
+    background: url(https://hd.unsplash.com/photo-1415369629372-26f2fe60c467);
+    background-size: cover;
+    background-position: center;
+    padding-top: 10%;
+    color: #FFFFFF;
 }
 
-#email{
-	text-align: center;
-	padding-top:5%;
+#email {
+    text-align: center;
+    padding-top: 5%;
 }
 
-#aboutJumbotron{
-	background: url(http://deskbg.com/i/c/1920x1200/wpp/17/17561/group-little-cats-desktop-background.jpg);
-	background-position: center;
-	background-size: cover;
-	padding-top: 10%;
-	color: #FFFFFF;
+#aboutJumbotron {
+    background: url(http://deskbg.com/i/c/1920x1200/wpp/17/17561/group-little-cats-desktop-background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 10%;
+    color: #FFFFFF;
 }
 
-
-.aboutPage .ictList{
-	padding-top: 3%;
+.aboutPage .ictList {
+    padding-top: 3%;
 }
 
-
-
-#text{
-	width: 100%;
-	height: 5%;
+#text {
+    width: 100%;
+    height: 5%;
 }
 
-#submit{
-	position: relative;
-	margin-left: 45%;
+#submit {
+    position: relative;
+    margin-left: 45%;
 }
 
-.conversationLog{
+.conversationLog {
     max-height: 35%;
     overflow-y: scroll;
 }
 
-.ictContent h1{
-	text-align: center;
+.ictContent h1 {
+    text-align: center;
 }
 
-#ictContentBox{
-	background-color: #C8C8C8;
-	margin-top: 5%;
+#ictContentBox {
+    background-color: #C8C8C8;
+    margin-top: 5%;
 }
 
-.conversationLog hr{
-	width: 100%;
-	height: 10%;
+.conversationLog hr {
+    width: 100%;
+    height: 10%;
 }
 
 #fourOhFour {
+    text-align: center;
+    padding-top: 15%;
+    background: url(http://img.wallpaperfolder.com/f/45C41A3EA6F9/3968x2976px-613218-bimini-1719-08-kb-15-02-2015-buttafly-900x900px.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+}
+
+#underline{
+	text-decoration: underline;
+}
+
+.termsAndService h1{
+	font-size: 150%;
+}
+
+#TAndC{
 	text-align: center;
-	padding-top: 15%;
-	background: url(http://img.wallpaperfolder.com/f/45C41A3EA6F9/3968x2976px-613218-bimini-1719-08-kb-15-02-2015-buttafly-900x900px.jpg);
-	background-size: cover; 
-	background-position: center;
-	color: #FFFFFF;
+	text-decoration: underline;
+	margin-bottom: 5%;
+}
+
+.agree{
+	text-align: center;
+	border: 1px solid black;
+	width: 50%; 
+	margin: 5% auto; 
+}
+
+#agreeText{
+	margin: 5% auto;
+}
+
+#TAndCButton{
+	background:none!important;
+     border:none; 
+     padding: 1%;
+     font: inherit;
+     border: 1px solid #444; 
+     cursor: pointer;
+     margin-top: 2%;
 }
